@@ -26,7 +26,7 @@ jobs:
         with:
           directory: k8s
           output_format: 'sarif'
-          quiet: 'true'
+          #quiet: 'true'
           #soft_fail: false
       - name: Upload checkov results to GitHub Security tab
         uses: github/codeql-action/upload-sarif@v1
