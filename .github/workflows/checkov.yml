@@ -24,7 +24,7 @@ jobs:
         id: checkov
         uses: bridgecrewio/checkov-action@master
         with:
-          directory: Docker
+          directory: k8s
           output_format: 'sarif'
           quiet: 'true'
           #soft_fail: false
