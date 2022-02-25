@@ -1,3 +1,4 @@
+name: Kube score for K8s file
 # Controls when the workflow will run
 on: workflow_dispatch
 
