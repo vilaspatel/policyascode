@@ -34,4 +34,5 @@ jobs:
           output: 'table'
           severity: 'CRITICAL,HIGH'
           exit-code: '1'
+          hide-progress: 'false'
           
