@@ -13,7 +13,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - name: kube-score check for Dockerfile
+      - name: kube-score check for K8s file
         uses: piraces/kube-score-ga@v0.1.2
         with:
           manifests-folders: './k8s/*.yml'
